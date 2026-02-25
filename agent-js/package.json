@@ -1,0 +1,21 @@
+{
+  "name": "agent-js",
+  "version": "1.0.0",
+  "description": "JavaScript reimplementation of Python teaching agent code",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agent",
+    "claude",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openrouter/sdk": "^0.9.11",
+    "dotenv": "^16.4.0"
+  }
+}

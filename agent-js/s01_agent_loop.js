@@ -127,7 +127,7 @@ async function agentLoop(messages) {
       console.log(output.substring(0, 200));
       results.push({
         type: "tool_result",
-        tool_use_id: toolCall.id,
+        toolCallId: toolCall.id,
         content: output
       });
     }
